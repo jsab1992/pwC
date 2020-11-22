@@ -1,0 +1,36 @@
+.section-infoa-ser {
+  height: 184px;
+}
+
+.list-section-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.list-servicios {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 39%;
+  align-items: center;
+}
+
+.color-vineta {
+  color: #e0301e;
+}
+
+.border-vineta {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+.border-viñeta:hover {
+  border-color: #e0301e;
+}
+
+a.m-2.text-body.border-viñeta {
+  text-decoration: none;
+}
+

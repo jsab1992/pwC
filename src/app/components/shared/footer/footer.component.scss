@@ -1,0 +1,46 @@
+.socialfollow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-social {
+  font-size: 20px;
+  color: #fff;
+}
+
+.box-social {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.box-social:nth-child(1) {
+  background: #305891;
+}
+.box-social:nth-child(2) {
+  background: #0aa9ee;
+}
+.box-social:nth-child(3) {
+  background: #007cb9;
+}
+.box-social:nth-child(4) {
+  background: #d9523d;
+}
+.box-social:nth-child(5) {
+  background: #e1306c;
+}
+
+.subfooter {
+  display: flex;
+  background: #7d7d7d;
+  height: 234px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+

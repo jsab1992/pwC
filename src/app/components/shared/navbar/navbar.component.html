@@ -1,0 +1,99 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="../assets/ico/PwC-logo.webp" alt="" />|
+    <a
+      href="https://www.pwc.com/co/es.html"
+      class="slim-header__territory-name"
+    ></a>
+    Colombia
+  </a>
+</nav>
+
+<div class="nav_elemnt">
+  <ul ngbNav #nav="ngbNav" [activeId]="2" class="container align-items-end nav">
+    <li ngbDropdown class="nav-item border-nav">
+      <a href (click)="(false)" class="nav-link text-white" ngbDropdownToggle
+        >Industrias</a
+      >
+      <div class="dropdown_navbar" ngbDropdownMenu>
+
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Automotriz</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Farmacéutica</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Retail y Consumo</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Telecomunicaciones y Medios</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Agroindustria</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Infraestructura</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Salud</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Transporte y Logística </span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page"
+            >Energía, Minería y Servicios Públicos</span
+          ></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Industrias Manufactureras</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page">Servicios Financieros</span></a
+        >
+        <a class="link-text-dropdown"
+          ><span class="link-nav-page"></span></a
+        >
+      </div>
+    </li>
+    <li ngbDropdown class="nav-item border-nav">
+      <a href (click)="(false)" class="nav-link text-white" ngbDropdownToggle
+        ><b>Fancy</b> title</a
+      >
+      <div class="dropdown_navbar" ngbDropdownMenu>
+        <p>
+          g sartorial PBR leggings next level wes anderson artisan four loko
+          farm-to-table craft beer twee. Qui photo booth letterpress, commodo
+          enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
+          PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus
+          mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente
+          labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
+          sustainable jean shorts beard ut DIY ethical culpa terry richardson
+          biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui
+          sapiente accusamus tattooed echo park.
+        </p>
+      </div>
+    </li>
+    <li ngbDropdown class="nav-item border-nav">
+      <a href (click)="(false)" class="nav-link text-white" ngbDropdownToggle
+        ><b>Fancy</b> title</a
+      >
+      <div class="dropdown_navbar" ngbDropdownMenu>
+        <p>
+          R leggings next level wes anderson artisan four loko farm-to-table
+          craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+          mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud
+          organic, assumenda labore aesthetic magna delectus mollit. Keytar
+          helvetica VHS salvia yr, vero magna velit sapiente labore stumptown.
+          Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean
+          shorts beard ut DIY ethical culpa terry richardson biodiesel. Art
+          party scenester stumptown, tumblr butcher vero sint qui sapiente
+          accusamus tattooed echo park.
+        </p>
+      </div>
+    </li>
+  </ul>
+  <div class="nav-tabs"></div>
+  <div [ngbNavOutlet]="nav" class="mt-2"></div>
+</div>

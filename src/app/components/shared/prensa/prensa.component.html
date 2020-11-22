@@ -1,0 +1,25 @@
+<div class="row section-page-prensa container-fluid">
+  <div class="col-md-6">
+    <iframe
+      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%2Fpwccolombia%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+      width="100%"
+      height="500"
+      style="border: none; overflow: hidden"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    ></iframe>
+  </div>
+  <div class="col-md-6">
+    <ngx-twitter-timeline
+      [data]="{ sourceType: 'url', url: 'https://twitter.com/PwC_Colombia' }"
+      [opts]="{ tweetLimit: 1 }"
+    ></ngx-twitter-timeline>
+  </div>
+  <div class="container">
+    <button type="button" class="btn btn-pwc">
+      Entrar a la sala de prensa
+    </button>
+  </div>
+</div>
